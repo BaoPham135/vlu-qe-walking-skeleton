@@ -5,7 +5,7 @@
  * @returns {boolean} true nếu username === 'admin' và password === '123', ngược lại false
  */
 function checkLogin(username, password) {
-  return username === 'admin' && password === '1234';
+  return username === 'admin' && password === '123';
 }
  
 // Hỗ trợ cả môi trường trình duyệt (script tag) và Node.js (CommonJS, dùng cho Jest/Mocha)
